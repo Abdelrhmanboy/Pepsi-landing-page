@@ -11,6 +11,7 @@ body{
     height: 100vh;
     width: 100%;
     background-color: #1a1aff;
+    transition: 0.3s;
 }
 #container{
     background: rgb(9, 59, 160);
@@ -19,6 +20,7 @@ body{
     position: relative;
     box-shadow: 30px 30px 50px #000;
     overflow: hidden;
+    transition: 0.3s;
 }
 header{
     width: 90%;
@@ -136,10 +138,6 @@ header ul li a:hover{
     background-color: rgb(5, 34, 93);
     border-radius: 50px;
     
-}
-#canT{
-    width: 45px;
-}
 
 @media (max-width:950px) and (min-width:720px){
     .links a:hover{
@@ -201,9 +199,7 @@ header ul li a:hover{
     .icons img{
         width: 30px;
     }
-    #canT{
-        width: 35px;
-    }
+ 
 }
 
 @media (max-width:720px){
@@ -266,8 +262,6 @@ header ul li a:hover{
     .icons img{
         width: 22px;
     }
-    #canT{
-        width: 25px;
-    }
+ 
 }
 
